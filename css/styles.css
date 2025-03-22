@@ -31,7 +31,7 @@ p {
 
 .container {
   max-width: 1158px;
-  padding: 0 15px 0 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -101,9 +101,9 @@ img {
 }
 
 .box {
-  padding: 60px 0;
   width: 100%;
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .contact-link {
@@ -176,9 +176,10 @@ img {
   background-color: #4d5ae5;
   cursor: pointer;
   border-radius: 4px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   margin: 0 auto;
+  border: none;
 }
 
 .order-btn:hover,
@@ -274,7 +275,7 @@ img {
   margin-bottom: 0;
 }
 .name-container {
-  padding: 32px 16px;
+  padding: 32px 0;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
@@ -287,6 +288,13 @@ img {
   color: #2e2f42;
   margin-bottom: 8px;
   text-align: center;
+}
+.portf-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  width: 360px;
+  height: 120px;
 }
 
 .portfolio-section {
@@ -318,13 +326,12 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 32px;
-  margin-left: 16px;
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   gap: 8px;
+  margin-bottom: 8px;
 }
 
 .portf-list-item {
@@ -338,9 +345,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-top: 8px;
-  margin-left: 16px;
-  margin-bottom: 32px;
+  justify-content: flex-start;
 }
 
 .logo {
