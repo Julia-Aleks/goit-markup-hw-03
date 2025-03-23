@@ -200,19 +200,11 @@ img {
 
 .benefits-list {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   gap: 24px;
 }
 
 .benefits-item {
   width: calc((100% - 3 * 24px) / 4);
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-  width: 264px;
-  height: 104px;
 }
 
 .text-descr {
@@ -264,11 +256,8 @@ img {
 }
 
 .team-list {
-  background-color: #f4f4fd;
   display: flex;
-  flex-wrap: wrap;
   gap: 24px;
-  justify-content: center;
 }
 
 .team-item {
@@ -302,8 +291,6 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  width: 360px;
-  height: 120px;
 }
 
 .portfolio-section {
@@ -326,7 +313,6 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  justify-content: flex-start;
 }
 
 .portfolio-item {
@@ -335,16 +321,10 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 8px;
   margin-bottom: 8px;
 }
 
 .portf-list-item {
-  border: 1px solid #e7e9fc;
   width: calc((100% - 2 * 24px) / 3);
 }
 
@@ -370,6 +350,7 @@ img {
 }
 
 .footer-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -377,8 +358,6 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   display: inline-block;
-  justify-content: flex-start;
-  flex-direction: row;
   margin-bottom: 16px;
 }
 
